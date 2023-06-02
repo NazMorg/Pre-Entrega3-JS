@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    background-color: grey;
+}
+
+body main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    height: 100%;
+    width: 80%;
+    margin: 5px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: start;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    background-color: #E9E9E9;
+}
+
+.subtitulo {
+    font-weight: bold;
+}
+
+.btnEnviar {
+    margin: 1% 40%;
+    margin-bottom: 0;
+    padding: 5px;
+    border: 1px solid lightskyblue;
+    border-radius: 5px;
+    background-color: lightskyblue;
+    color: white;
+    width: 20%;
+}
+
+.btnEnviar:hover {
+    background-color: lightseagreen;
+}
+
+.inputs {
+    background-color: #f1f1f1;
+}
+
+.inputs:focus {
+    background-color: #f9f9f9;
+    border: none;
+    box-shadow: none;
+}
+
+.tarjeta {
+    margin: 1px;
+    margin-bottom: 5px;
+    background-color: #E9E9E9;
+    width: 100%;
+}
+
+.tituloTarjeta {
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #cccccc;
+    padding: 5px;
+}
+
+.cuerpoTarjeta {
+    background-color: #f1f1f1;
+}
+
+.mensajeTarjeta {
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.autorTarjeta {
+    text-align: right;
+}
+
+.fechaTarjeta {
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+}
